@@ -10,7 +10,7 @@
 
 ## 介绍
 
-+ 在原有源码的基础上添加了手动选择特定人物功能
++ 在原有源码的基础上添加了手动选择特定任务功能
 + 将token等设置从config文件改为了在控制台输入
 + 可自定义选择每一题之间的刷题间隔
 + 将源代码进行适配，可在termux运行
@@ -28,7 +28,38 @@
 
 ### **删除请联系harold.lach.lei@gmail.com**
 
-## 配置方法
+## 使用方法
+安装termux
+更新已安装软件包
+```angular2html
+pkg upgrade
+```
+换清华源
+```angular2html
+sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main@' $PREFIX/etc/apt/sources.list
+apt update && apt upgrade
+```
+下载必要工具
+```angular2html
+pkg install python vim -y
+```
+获取访问内部储存权限
+```angular2html
+termux-setup-storage
+```
+下载该程序源码，解压、复制源码位置（建议放在download文件夹下）
+进入源码文件夹
+```angular2html
+cd <源码所在文件夹地址>
+```
+安装必要库 
 ```angular2html
 pip install requests
 ```
+运行程序
+```angular2html
+python main.py
+```
+
+
+开始愉快的使用吧！
