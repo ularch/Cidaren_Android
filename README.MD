@@ -47,19 +47,20 @@ pkg install python vim -y
 ```angular2html
 termux-setup-storage
 ```
+安装必要库 
+```angular2html
+pip install requests
+```
 下载该程序源码，解压、复制源码位置（建议放在download文件夹下）
 进入源码文件夹
 ```angular2html
 cd <源码所在文件夹地址>
 ```
-安装必要库 
-```angular2html
-pip install requests
-```
 运行程序
 ```angular2html
 python main.py
 ```
-
-
 开始愉快的使用吧！
+
++ 电脑端取token可使用[ularch/Cidaren Automatic Answers](https://github.com/ularch/Cidaren_Automatic_Answer) get token文件夹下的词达人token获取.exe快速获取
++ 手机获取token可使用ProxyPin等抓包软件，此处不做讲解（可能会出获取方法）
