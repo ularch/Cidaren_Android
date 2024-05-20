@@ -14,7 +14,7 @@
 + 将token等设置从config文件改为了在控制台输入
 + 可自定义选择每一题之间的刷题间隔
 + 将源代码进行适配，可在termux运行
-+ Windows可视化GUI版见[ularch/Cidaren Automatic Answers](https://gitee.com/ularch/cidaren)
++ Windows可视化GUI版见[ularch/Cidaren Automatic Answers](https://github.com/ularch/Cidaren_Automatic_Answer)
 
 <!-- <details> <summary> <b>日志(点击查看进程)</b> </summary>
 
